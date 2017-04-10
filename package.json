@@ -1,0 +1,22 @@
+{
+  "name": "prop-types-throw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha *-spec.js --require ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pwmckenna/prop-types-throw.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pwmckenna/prop-types-throw/issues"
+  },
+  "homepage": "https://github.com/pwmckenna/prop-types-throw#readme",
+  "devDependencies": {
+    "mocha": "^3.2.0"
+  }
+}
