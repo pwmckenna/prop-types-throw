@@ -4,7 +4,7 @@ module.exports = {
         error = console.error;
         console.error = function (msg) {
             error.apply(console, arguments);
-            var match = msg.match(/Warning: (Failed .* type: .*)/);
+            var match = typeof msg === 'string' && msg.match(/Warning: (Failed .* type: .*)/);
             if (match) {
                 throw new Error(match[1]);
             }
